@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(19, 27, 37);
+    font: 15pt normal Arial;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    height: 460px;
+    width: 600px;
+    background: #F5F5FA;
+    border-radius: 5px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
+    font-family: 'Work Sans';
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+}
+
+h1 {
+    font-family: 'Belanosima';
+    color: #F5F5FA;
+}
+
+a {
+    margin-top: 20px;
+      text-decoration: none;
+      transition: 0.3s;
+      color: #F5F5FA;
+}
+
+a:hover {
+    scale: 1.2;
+}
+
+div#res {
+    text-align: center;
+}
+.ano, .sexo{
+    text-align: center;
+}
+
+.verificar {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    padding: 10px 5px 10px 5px;
+    margin: 15px;
+    font-size: 12pt;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.button:hover {
+    scale: 1.1;
+}
+
+.imagem {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
